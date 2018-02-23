@@ -41,5 +41,5 @@ the topic folder.
 
 ## Rails
 
-* [Refactoring Fat Models With Service Layers](rails/refactoring_fat_models_with_service_layers)
+* [Refactoring Fat Models With Service Layers](rails/refactoring_fat_models_with_service_layers.slide)
 
