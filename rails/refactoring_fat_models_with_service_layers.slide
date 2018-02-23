@@ -1,11 +1,85 @@
 Refactoring Fat Models With Service Layers
 
 Omar Mekky
-CTO, Almakinah
+Cofounder & CTO, Almakinah
 alphaengine@gmail.com
 
 @cousine
 https://github.com/cousine
 
 * Hi there!
+
+.image assets/introduction.gif 500 _
+
+: introducing myself, experience and some ice breaking
+: programmer since I was 13
+: moved into web development in 2003
+: college dropout
+
+* Hi there!
+
+.image assets/jumbo.jpg 500 _
+
+: cat lover
+: have cats
+
+* Hi there!
+
+.image assets/cats.jpg 500 _
+
+: have a lot of cats
+: talk to me after if you want to adopt
+
+* Hi there!
+
+.image assets/falafilo.jpg 500 _
+
+: dog lover (recently), just the one dog
+
+* Technical stuff
+
+: co-founded mash, Ltd. in 2008
+: working with Rails since 2008
+: published in Rails Magazine twice
+: author of Authentasaurus and Mebla for ElasticSearch
+: Egypt On Rails
+: Ruby & Rails evangelist
+: teaching Rails exclusevly for 3 years CareerFoundry + Almakinah
+
+* Using Rails in 2018
+
+.image assets/rails.png
+
+: Explain the evolution:
+: why we chose Rails to begin with?
+: why not Java?
+: why not .NET?
+: how the field have changed? (frontend/backend evolution, architecture,... etc)
+: why are we still sticking to Rails?
+: how is using Rails different in 2018, the pros and cons
+
+* Monolith vs Micro-services
+
+: Explain the problems:
+: what is a monolith application?
+: what is a micro-services application? 
+: which is best? monolith or micro-services? when to use each?
+
+* Monolith
+
+.image assets/monolith.gif 500 _
+
+* Micro-services
+
+.image assets/microservices.gif 500 _
+
+* Why not both!
+
+.image assets/both.gif 500 _
+
+: Explain the solution:
+: how Rails can be manipulated and organised to combine the best of both worlds
+
+
+
 
