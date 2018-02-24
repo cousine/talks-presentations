@@ -38,6 +38,8 @@ https://github.com/cousine
 
 * Technical stuff
 
+.image assets/logos.png 500 _
+
 : co-founded mash, Ltd. in 2008
 : working with Rails since 2008
 : published in Rails Magazine twice
@@ -52,7 +54,7 @@ https://github.com/cousine
 
 : Explain the evolution:
 : why we chose Rails to begin with?
-: why not Java?
+: why not Java? why not PHP?
 : why not .NET?
 : how the field have changed? (frontend/backend evolution, architecture,... etc)
 : why are we still sticking to Rails?
@@ -69,17 +71,44 @@ https://github.com/cousine
 
 .image assets/monolith.gif 500 _
 
+: One application to rule them all
+: Vertical scaling
+: Horizontal scaling on the server layer
+: Hard to maintain
+: Hard to onboard new developers
+: Slow bootup
+: One failure, fails the whole application
+
 * Micro-services
 
 .image assets/microservices.gif 500 _
+
+: Small applications, separate concerns
+: Horizontal scaling from day one
+: Easy to maintain
+: Easy to onboard new developers (given orchestration)
+: One failure affects just one service
 
 * Why not both!
 
 .image assets/both.gif 500 _
 
 : Explain the solution:
-: how Rails can be manipulated and organised to combine the best of both worlds
+: We still can benefit from monolith applications within a microservices arch
+: How Rails can be manipulated and organised to combine the best of both worlds
+: By strucuring monolith applications we can avert the cons
 
+* Demo time!
 
+.image assets/ready.gif 300 _
+
+* Questions
+
+- Slides for this talk at
+
+.link https://github.com/cousine/talks-presentations
+
+- Code for this talk at 
+.link https://github.com/cousine/authentication-mvc-demo
 
 
