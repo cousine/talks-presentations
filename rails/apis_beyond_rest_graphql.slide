@@ -1,0 +1,103 @@
+APIs beyond REST: GraphQL
+
+Omar Mekky
+Software Craftsman
+alphaengine@gmail.com
+
+@cousine
+https://github.com/cousine
+
+* Hi there!
+
+.image assets/introduction.gif 500 _
+
+: introducing myself, experience and some ice breaking
+: programmer since I was 13
+: moved into web development in 2003
+: college dropout
+
+* Hi there!
+
+.image assets/jumbo.jpg 500 _
+
+: cat lover
+: have cats
+
+* Hi there!
+
+.image assets/cats.jpg 500 _
+
+: have a lot of cats
+: talk to me after if you want to adopt
+
+* Hi there!
+
+.image assets/falafilo.jpg 500 _
+
+: dog lover (recently), just the one dog
+
+* Technical stuff
+
+.image assets/logos.png 500 _
+
+: co-founded mash, Ltd. in 2008
+: working with Rails since 2008
+: published in Rails Magazine twice
+: author of Authentasaurus and Mebla for ElasticSearch
+: Egypt On Rails
+: Ruby & Rails evangelist
+: teaching Rails exclusevly for 3 years CareerFoundry + Almakinah
+
+* The issue with REST
+
+- Multiple endpoints
+- Requires versioning
+- Requires team co-ordination to properly design
+- No types
+- Provider enforces naming on consumer
+- Overall: not flexible
+
+* What is GraphQL?
+
+.image assets/GraphQL_Logo.svg 500 _
+
+: A query language for APIs developed by Facebook for their GraphAPI
+: Structured; you define a schema
+: Typed
+: One endpoint to query
+: No versioning required
+: You ask for what you need
+: Who uses GraphQL?
+
+* How it looks like on the provider side
+
+.code src/graphql_schema.schema
+
+* How it looks like on the consumer side
+
+.code src/graphql_query.query /REGULAR/,/END REGULAR/
+
+.code src/graphql_results.results /REGULAR/,/END REGULAR/
+
+* What if we only want the author and published_at?
+
+.code src/graphql_query.query /VARIATION/,/END VARIATION/
+
+.code src/graphql_results.results /VARIATION/,/END VARIATION/
+
+* What if we want to rename a field?
+
+.code src/graphql_query.query /RENAME/,/END RENAME/
+
+.code src/graphql_results.results /RENAME/,/END RENAME/
+
+* Enough talk, Demo time!
+
+.image assets/ready.gif 300 _
+
+* Questions
+
+- Slides for this talk at
+
+.link https://github.com/cousine/talks-presentations
+

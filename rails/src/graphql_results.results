@@ -1,0 +1,40 @@
+// REGULAR OMIT
+{
+  "data": {
+    "Post": {
+      "title": "Hello World!",
+      "body": "Lorem ipsum...",
+      "author": {
+        "id": 1234,
+        "name": "John Smith"
+      }
+    }
+  }
+}
+// END REGULAR OMIT
+
+// VARIATION OMIT
+{
+  "data": {
+    "Post": {
+      "author": {
+        "name": "John Smith"
+      },
+      "published_at": "2018-05-04 13:19:50.000"
+    }
+  }
+}
+// END VARIATION OMIT
+
+// RENAME OMIT
+{
+  "data": {
+    "Post": {
+      "owner": {
+        "id": 1234,
+        "name": "John Smith"
+      }
+    }
+  }
+}
+// END RENAME OMIT

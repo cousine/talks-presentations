@@ -1,0 +1,17 @@
+type Post {
+  title: String
+  body: String
+  author: User
+  published_at: Datetime
+  comments: [Comment]
+}
+
+type User {
+  id: ID
+  name: String
+}
+
+type Comment {
+  body: String
+  author: User
+}

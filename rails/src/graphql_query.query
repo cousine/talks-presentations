@@ -1,0 +1,28 @@
+// REGULAR OMIT
+{
+  Post {
+    title
+    body
+    author
+  }
+}
+// END REGULAR OMIT
+
+// VARIATION OMIT
+{ 
+  Post {
+    author: {
+      name
+    }
+    published_at
+  }
+}
+// END VARIATION OMIT
+
+// RENAME OMIT
+{
+  Post {
+    owner: author
+  }
+}
+// END RENAME OMIT
